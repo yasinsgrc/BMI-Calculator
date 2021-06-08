@@ -227,7 +227,7 @@ const BmiDetail = () => {
                       <hr/>
                       <Diet />
                     </Card.Text>
-                  </Card.Body>
+                  </Card.Body>   
                 </Col>
               </Row>
             </Card>

@@ -44,7 +44,7 @@ export default function BmiCalculator() {
 
     const bmi=(kilo/(boy*boy)).toFixed(2);
 
-    if(!isNaN(bmi)){
+    if(!isNaN(bmi)){    
         localStorage.setItem("bmi",bmi);
         history.push("/detail");
     }
